@@ -5,6 +5,7 @@
   "license": "none",
   "type": "module",
   "scripts": {
+    "build": "vuepress build",
     "docs:build": "vuepress build .",
     "docs:clean-dev": "vuepress dev . --clean-cache",
     "docs:dev": "vuepress dev ."
