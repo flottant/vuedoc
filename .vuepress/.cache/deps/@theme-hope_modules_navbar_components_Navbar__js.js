@@ -17,17 +17,17 @@ import {
 } from "./chunk-KAL2VPKS.js";
 import {
   AutoLink_default
-} from "./chunk-UZ6IWD24.js";
+} from "./chunk-JDI45QS3.js";
 import {
   Icon_default
-} from "./chunk-7B5ZFD4N.js";
+} from "./chunk-HAYHY7XC.js";
+import {
+  client_exports
+} from "./chunk-FECFGNAG.js";
 import {
   isLinkExternal,
   isLinkHttp
 } from "./chunk-ZZFPM4EY.js";
-import {
-  client_exports
-} from "./chunk-FECFGNAG.js";
 import {
   RouterLink,
   useRoute,

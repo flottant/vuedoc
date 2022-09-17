@@ -1,7 +1,7 @@
 {
-  "name": "vuedoc",
+  "name": "flot-database",
   "version": "2.0.0",
-  "description": "flot's doc",
+  "description": "flot's database",
   "license": "none",
   "type": "module",
   "scripts": {

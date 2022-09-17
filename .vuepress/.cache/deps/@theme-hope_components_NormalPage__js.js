@@ -3,16 +3,13 @@ import {
 } from "./chunk-AAJSKQD2.js";
 import {
   TOC_default
-} from "./chunk-MOC7XIUX.js";
+} from "./chunk-RCEMHHLQ.js";
 import {
   PageInfo_default,
   useContributors,
   useEditLink,
   useUpdateTime
-} from "./chunk-Z2M6M5UI.js";
-import {
-  useSidebarItems
-} from "./chunk-WSXTHNY2.js";
+} from "./chunk-RWJJ3BZQ.js";
 import {
   MarkdownContent_default
 } from "./chunk-ZSYUWSCR.js";
@@ -22,6 +19,9 @@ import {
 import {
   getAncestorLinks
 } from "./chunk-5MDCQZ5P.js";
+import {
+  useSidebarItems
+} from "./chunk-3KTJU62Y.js";
 import {
   useAutoLink,
   useNavigate,
@@ -35,16 +35,16 @@ import {
 } from "./chunk-KAL2VPKS.js";
 import {
   AutoLink_default
-} from "./chunk-UZ6IWD24.js";
+} from "./chunk-JDI45QS3.js";
 import {
   Icon_default
-} from "./chunk-7B5ZFD4N.js";
-import {
-  isPlainObject
-} from "./chunk-ZZFPM4EY.js";
+} from "./chunk-HAYHY7XC.js";
 import {
   client_exports
 } from "./chunk-FECFGNAG.js";
+import {
+  isPlainObject
+} from "./chunk-ZZFPM4EY.js";
 import {
   RouterLink,
   useRoute,

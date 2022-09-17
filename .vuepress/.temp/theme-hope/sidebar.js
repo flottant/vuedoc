@@ -1,1 +1,1 @@
-export const sidebarData = {"/zh/guide/":["page.md","markdown.md","disable.md","encrypt.md"],"/guide/":["page.md","markdown.md","disable.md","encrypt.md"]}
+export const sidebarData = {"/":["README.md","slides.md","home.md",{"text":"主要功能与配置演示","icon":"creative","collapsable":true,"prefix":"guide/","children":["page.md","markdown.md","disable.md","encrypt.md"]}]}
