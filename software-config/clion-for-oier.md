@@ -14,12 +14,12 @@ isOriginal: true
 ---
 
 Clion 很适合 OIer 吗？反正调试变量行内显示挺爽的。
-# 简洁概要版
+## 简洁概要版
 
 安装 CLion, 安装 single Execute 插件。初始化代码时不要选择关联，新建完文件后更新 Cmake 项目。这样一个项目里面就可以放很多道题目了。
 
-# 图文详细版
-## 安装过程
+### 图文详细版
+### 安装过程
 
 ![](https://search.pstatic.net/common/?src=https://i.imgur.com/aHQ9kHe.jpeg)
 
@@ -27,7 +27,7 @@ Clion 很适合 OIer 吗？反正调试变量行内显示挺爽的。
 
 记得重启。嗯。
 
-## 使用教程
+### 使用教程
 
 用各种奇怪姿势激活后：
 
@@ -53,7 +53,7 @@ Clion 很适合 OIer 吗？反正调试变量行内显示挺爽的。
 
 ![](https://search.pstatic.net/common/?src=https://i.imgur.com/esaph2B.jpeg)
 
-## 开写
+### 开写
 
 如果这里没有出现这个选项，先别急，Clion 在构建索引
 
