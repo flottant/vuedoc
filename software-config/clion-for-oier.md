@@ -13,6 +13,7 @@ tag:
 isOriginal: true
 ---
 
+Clion 很适合 OIer 吗？反正调试变量行内显示挺爽的。
 # 简洁概要版
 
 安装 CLion, 安装 single Execute 插件。初始化代码时不要选择关联，新建完文件后更新 Cmake 项目。这样一个项目里面就可以放很多道题目了。
