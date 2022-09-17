@@ -1,28 +1,28 @@
 import {
   DropTransition_default
-} from "./chunk-DS3RHRXW.js";
+} from "./chunk-AWT37JTS.js";
 import {
   isActiveSidebarItem,
   isMatchedSidebarItem,
   renderChildren,
   renderItem,
   useSidebarItems
-} from "./chunk-3KTJU62Y.js";
+} from "./chunk-A5VW2ZSS.js";
 import {
   useThemeLocaleData
-} from "./chunk-GPPWGUY2.js";
-import "./chunk-KAL2VPKS.js";
-import "./chunk-JDI45QS3.js";
+} from "./chunk-QJ6DX5RZ.js";
+import "./chunk-Z5NJLK7X.js";
+import "./chunk-I7F6NC35.js";
 import {
   Icon_default
-} from "./chunk-HAYHY7XC.js";
-import "./chunk-FECFGNAG.js";
-import "./chunk-ZZFPM4EY.js";
+} from "./chunk-LGJREDHN.js";
+import "./chunk-23CFZDLP.js";
+import "./chunk-ANKY43RT.js";
 import {
   RouterLink,
   useRoute
-} from "./chunk-ANJIMETJ.js";
-import "./chunk-S3VVWPG2.js";
+} from "./chunk-OFHRJP5O.js";
+import "./chunk-2UX2KQYZ.js";
 import {
   computed,
   defineComponent,
@@ -30,13 +30,12 @@ import {
   onMounted,
   ref,
   watch
-} from "./chunk-PWHMU4FR.js";
-import "./chunk-WXFYXWFA.js";
-import "./chunk-WCXEAEE2.js";
-import "./chunk-5E3NKPRU.js";
+} from "./chunk-ARDOOAUT.js";
+import "./chunk-WV4GUBZO.js";
+import "./chunk-BPKF3OQJ.js";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/SidebarChild.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/styles/sidebar-child.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/SidebarChild.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/styles/sidebar-child.scss";
 var SidebarChild_default = defineComponent({
   name: "SidebarChild",
   props: {
@@ -61,8 +60,8 @@ var SidebarChild_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/SidebarGroup.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/styles/sidebar-group.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/SidebarGroup.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/styles/sidebar-group.scss";
 var SidebarGroup_default = defineComponent({
   name: "SidebarGroup",
   props: {
@@ -109,8 +108,8 @@ var SidebarGroup_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/SidebarLinks.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/styles/sidebar-links.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/SidebarLinks.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/styles/sidebar-links.scss";
 var SidebarLinks_default = defineComponent({
   name: "SidebarLinks",
   props: {
@@ -137,8 +136,8 @@ var SidebarLinks_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/Sidebar.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/styles/sidebar.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/components/Sidebar.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/sidebar/styles/sidebar.scss";
 var Sidebar_default = defineComponent({
   name: "SideBar",
   setup(_props, { slots }) {

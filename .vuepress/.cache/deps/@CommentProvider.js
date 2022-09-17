@@ -1,22 +1,22 @@
 import {
   client_exports
-} from "./chunk-FECFGNAG.js";
+} from "./chunk-ANKY43RT.js";
 import {
   useRoute
-} from "./chunk-ANJIMETJ.js";
+} from "./chunk-OFHRJP5O.js";
+import "./chunk-2UX2KQYZ.js";
 import {
   computed,
   defineComponent,
   h,
   onMounted,
   ref
-} from "./chunk-PWHMU4FR.js";
-import "./chunk-WXFYXWFA.js";
-import "./chunk-WCXEAEE2.js";
-import "./chunk-5E3NKPRU.js";
+} from "./chunk-ARDOOAUT.js";
+import "./chunk-WV4GUBZO.js";
+import "./chunk-BPKF3OQJ.js";
 
-// node_modules/vuepress-plugin-comment2/lib/client/components/Giscus.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-plugin-comment2/lib/client/styles/giscus.scss";
+// node_modules/.pnpm/vuepress-plugin-comment2@2.0.0-beta.100/node_modules/vuepress-plugin-comment2/lib/client/components/Giscus.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-plugin-comment2@2.0.0-beta.100/node_modules/vuepress-plugin-comment2/lib/client/styles/giscus.scss";
 var c = COMMENT_OPTIONS;
 var u = Boolean(c.repo && c.repoId && c.category && c.categoryId);
 var l = ["de", "gsw", "en", "es", "fr", "id", "it", "ja", "ko", "pl", "ro", "ru", "vi", "zh-CN", "zh-TW"];
@@ -34,7 +34,7 @@ var d = defineComponent({ name: "GiscusComment", props: { darkmode: Boolean }, s
     return Boolean(t2) || false !== e2 && false !== t2;
   }), f = computed(() => ({ repo: c.repo, repoId: c.repoId, category: c.category, categoryId: c.categoryId, lang: v.value, theme: r.darkmode ? "dark" : "light", mapping: c.mapping || "pathname", term: (0, client_exports.withBase)(m.path), inputPosition: c.inputPosition || "top", reactionsEnabled: false !== c.reactionsEnabled ? "1" : "0", strict: false !== c.strict ? "1" : "0", emitMetadata: "0" }));
   return onMounted(async () => {
-    await import("./giscus-M5WDGOX6.js"), g.value = true;
+    await import("./giscus-XAAHEHKR.js"), g.value = true;
   }), () => h("div", { class: ["giscus-wrapper", { "input-top": "bottom" !== c.inputPosition }], style: { display: y.value ? "block" : "none" } }, g.value ? h("giscus-widget", f.value) : h("div", { style: "text-align:center" }, "Loading..."));
 } });
 

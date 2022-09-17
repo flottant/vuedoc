@@ -1,11 +1,12 @@
 import {
   InfoPanel_default
-} from "./chunk-4TIX5INJ.js";
-import "./chunk-6HT75XZR.js";
-import "./chunk-AX2X3FNX.js";
+} from "./chunk-3TCQNHMQ.js";
+import "./chunk-XHWPL46X.js";
+import "./chunk-O56CKKA5.js";
 import {
   ArticleList_default
-} from "./chunk-B7OIZWCY.js";
+} from "./chunk-JVTNWOOF.js";
+import "./chunk-PACM5MSX.js";
 import {
   ArticleIcon,
   BookIcon,
@@ -13,47 +14,45 @@ import {
   LinkIcon,
   ProjectIcon,
   SlideDownIcon
-} from "./chunk-B4R7LY7R.js";
+} from "./chunk-WYX55KDC.js";
 import {
   useArticles
-} from "./chunk-GC73ICFH.js";
-import "./chunk-45T4H26X.js";
-import "./chunk-RWJJ3BZQ.js";
-import {
-  MarkdownContent_default
-} from "./chunk-ZSYUWSCR.js";
-import "./chunk-5MDCQZ5P.js";
+} from "./chunk-MPU3YXI4.js";
 import {
   DropTransition_default
-} from "./chunk-DS3RHRXW.js";
+} from "./chunk-AWT37JTS.js";
+import "./chunk-T3CADM6K.js";
+import "./chunk-LOJADGYG.js";
 import {
   useNavigate,
   usePure
-} from "./chunk-GPPWGUY2.js";
-import "./chunk-KAL2VPKS.js";
+} from "./chunk-QJ6DX5RZ.js";
+import "./chunk-Z5NJLK7X.js";
+import {
+  MarkdownContent_default
+} from "./chunk-R5RP5QDZ.js";
 import {
   Icon_default
-} from "./chunk-HAYHY7XC.js";
+} from "./chunk-LGJREDHN.js";
+import "./chunk-23CFZDLP.js";
 import {
   client_exports
-} from "./chunk-FECFGNAG.js";
-import "./chunk-ZZFPM4EY.js";
-import "./chunk-ANJIMETJ.js";
-import "./chunk-S3VVWPG2.js";
+} from "./chunk-ANKY43RT.js";
+import "./chunk-OFHRJP5O.js";
+import "./chunk-2UX2KQYZ.js";
 import {
   computed,
   defineComponent,
   h,
   ref,
   resolveComponent
-} from "./chunk-PWHMU4FR.js";
-import "./chunk-WXFYXWFA.js";
-import "./chunk-WCXEAEE2.js";
-import "./chunk-5E3NKPRU.js";
+} from "./chunk-ARDOOAUT.js";
+import "./chunk-WV4GUBZO.js";
+import "./chunk-BPKF3OQJ.js";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/blog/components/BlogHero.js
-import defaultHeroBgImagePath from "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/blog/assets/hero.jpg";
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/blog-hero.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/blog/components/BlogHero.js
+import defaultHeroBgImagePath from "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/blog/assets/hero.jpg";
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/blog-hero.scss";
 var BlogHero_default = defineComponent({
   name: "BlogHero",
   setup(_props, { slots }) {
@@ -125,8 +124,8 @@ var BlogHero_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/blog/components/ProjectPanel.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/project-panel.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/blog/components/ProjectPanel.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/project-panel.scss";
 var AVAILABLE_PROJECT_TYPES = [
   "link",
   "article",
@@ -167,8 +166,8 @@ var ProjectPanel_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/blog/components/BlogHome.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/home.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/blog/components/BlogHome.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/home.scss";
 var BlogHome_default = defineComponent({
   name: "BlogHome",
   setup() {

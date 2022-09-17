@@ -1,36 +1,36 @@
 import {
-  MarkdownContent_default
-} from "./chunk-ZSYUWSCR.js";
-import {
   DropTransition_default
-} from "./chunk-DS3RHRXW.js";
+} from "./chunk-AWT37JTS.js";
+import {
+  MarkdownContent_default
+} from "./chunk-R5RP5QDZ.js";
 import {
   AutoLink_default
-} from "./chunk-JDI45QS3.js";
+} from "./chunk-I7F6NC35.js";
 import {
   Icon_default
-} from "./chunk-HAYHY7XC.js";
-import {
-  client_exports
-} from "./chunk-FECFGNAG.js";
+} from "./chunk-LGJREDHN.js";
 import {
   isLinkExternal
-} from "./chunk-ZZFPM4EY.js";
+} from "./chunk-23CFZDLP.js";
+import {
+  client_exports
+} from "./chunk-ANKY43RT.js";
 import {
   RouterLink
-} from "./chunk-ANJIMETJ.js";
+} from "./chunk-OFHRJP5O.js";
+import "./chunk-2UX2KQYZ.js";
 import {
   computed,
   defineComponent,
   h
-} from "./chunk-PWHMU4FR.js";
+} from "./chunk-ARDOOAUT.js";
 import {
   isArray
-} from "./chunk-WXFYXWFA.js";
-import "./chunk-WCXEAEE2.js";
-import "./chunk-5E3NKPRU.js";
+} from "./chunk-WV4GUBZO.js";
+import "./chunk-BPKF3OQJ.js";
 
-// node_modules/vuepress-theme-hope/lib/client/components/HomeFeatures.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/HomeFeatures.js
 var HomeFeatures_default = defineComponent({
   name: "HomeFeatures",
   setup() {
@@ -63,7 +63,7 @@ var HomeFeatures_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/components/HomeHero.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/HomeHero.js
 var HomeHero_default = defineComponent({
   name: "HomeHero",
   setup(_props, { slots }) {
@@ -122,8 +122,8 @@ var HomeHero_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/components/HomePage.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/styles/home-page.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/HomePage.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/styles/home-page.scss";
 var HomePage_default = defineComponent({
   name: "HopePage",
   setup(_props, { slots }) {

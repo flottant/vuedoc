@@ -3,11 +3,12 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "主题演示",
-  description: "vuepress-theme-hope 的演示",
+  title: "Flot 的知识库",
+  description: "flot 的知识库",
 
   base: "/",
 
   theme,
   
 });
+

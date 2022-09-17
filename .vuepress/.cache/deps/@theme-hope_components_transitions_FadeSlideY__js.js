@@ -1,21 +1,20 @@
 import {
   useScrollPromise
-} from "./chunk-GPPWGUY2.js";
-import "./chunk-KAL2VPKS.js";
-import "./chunk-FECFGNAG.js";
-import "./chunk-ANJIMETJ.js";
-import "./chunk-S3VVWPG2.js";
+} from "./chunk-QJ6DX5RZ.js";
+import "./chunk-Z5NJLK7X.js";
+import "./chunk-ANKY43RT.js";
+import "./chunk-OFHRJP5O.js";
+import "./chunk-2UX2KQYZ.js";
 import {
   Transition,
   defineComponent,
   h
-} from "./chunk-PWHMU4FR.js";
-import "./chunk-WXFYXWFA.js";
-import "./chunk-WCXEAEE2.js";
-import "./chunk-5E3NKPRU.js";
+} from "./chunk-ARDOOAUT.js";
+import "./chunk-WV4GUBZO.js";
+import "./chunk-BPKF3OQJ.js";
 
-// node_modules/vuepress-theme-hope/lib/client/components/transitions/FadeSlideY.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/styles/fade-slide-y.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/transitions/FadeSlideY.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/styles/fade-slide-y.scss";
 var FadeSlideY_default = defineComponent({
   name: "FadeSlideY",
   setup(_props, { slots }) {

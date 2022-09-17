@@ -1,58 +1,57 @@
 import {
   EditIcon
-} from "./chunk-AAJSKQD2.js";
+} from "./chunk-OLOXLM5V.js";
+import {
+  useDarkMode
+} from "./chunk-TJUWHBR7.js";
 import {
   TOC_default
-} from "./chunk-RCEMHHLQ.js";
+} from "./chunk-44YTGTZL.js";
 import {
   PageInfo_default,
   useContributors,
   useEditLink,
   useUpdateTime
-} from "./chunk-RWJJ3BZQ.js";
-import {
-  MarkdownContent_default
-} from "./chunk-ZSYUWSCR.js";
-import {
-  useDarkMode
-} from "./chunk-HFNHJ7V7.js";
+} from "./chunk-T3CADM6K.js";
 import {
   getAncestorLinks
-} from "./chunk-5MDCQZ5P.js";
+} from "./chunk-LOJADGYG.js";
 import {
   useSidebarItems
-} from "./chunk-3KTJU62Y.js";
+} from "./chunk-A5VW2ZSS.js";
 import {
   useAutoLink,
+  useEventListener,
   useNavigate,
   usePageInfo,
   useThemeLocaleData
-} from "./chunk-GPPWGUY2.js";
+} from "./chunk-QJ6DX5RZ.js";
 import {
   c,
   u,
   x
-} from "./chunk-KAL2VPKS.js";
+} from "./chunk-Z5NJLK7X.js";
+import {
+  MarkdownContent_default
+} from "./chunk-R5RP5QDZ.js";
 import {
   AutoLink_default
-} from "./chunk-JDI45QS3.js";
+} from "./chunk-I7F6NC35.js";
 import {
   Icon_default
-} from "./chunk-HAYHY7XC.js";
-import {
-  client_exports
-} from "./chunk-FECFGNAG.js";
+} from "./chunk-LGJREDHN.js";
 import {
   isPlainObject
-} from "./chunk-ZZFPM4EY.js";
+} from "./chunk-23CFZDLP.js";
+import {
+  client_exports
+} from "./chunk-ANKY43RT.js";
 import {
   RouterLink,
   useRoute,
   useRouter
-} from "./chunk-ANJIMETJ.js";
-import {
-  useEventListener
-} from "./chunk-S3VVWPG2.js";
+} from "./chunk-OFHRJP5O.js";
+import "./chunk-2UX2KQYZ.js";
 import {
   computed,
   defineComponent,
@@ -62,15 +61,14 @@ import {
   resolveComponent,
   unref,
   watch
-} from "./chunk-PWHMU4FR.js";
+} from "./chunk-ARDOOAUT.js";
 import {
   isString
-} from "./chunk-WXFYXWFA.js";
-import "./chunk-WCXEAEE2.js";
-import "./chunk-5E3NKPRU.js";
+} from "./chunk-WV4GUBZO.js";
+import "./chunk-BPKF3OQJ.js";
 
-// node_modules/vuepress-theme-hope/lib/client/components/BreadCrumb.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/styles/breadcrumb.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/BreadCrumb.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/styles/breadcrumb.scss";
 var BreadCrumb_default = defineComponent({
   name: "BreadCrumb",
   setup() {
@@ -127,8 +125,8 @@ var BreadCrumb_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/components/PageNav.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/styles/page-nav.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/PageNav.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/styles/page-nav.scss";
 var resolveFromFrontmatterConfig = (conf) => {
   if (conf === false)
     return false;
@@ -220,8 +218,8 @@ var PageNav_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/components/PageTitle.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/styles/page-title.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/PageTitle.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/styles/page-title.scss";
 var PageTitle_default = defineComponent({
   name: "PageTitle",
   setup() {
@@ -243,8 +241,8 @@ var PageTitle_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/info/components/PageMeta.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/info/styles/page-meta.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/info/components/PageMeta.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/info/styles/page-meta.scss";
 var PageMeta_default = defineComponent({
   name: "PageMeta",
   setup() {
@@ -272,8 +270,8 @@ var PageMeta_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/components/NormalPage.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/styles/page.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/NormalPage.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/styles/page.scss";
 var NormalPage_default = defineComponent({
   name: "NormalPage",
   setup(_props, { slots }) {

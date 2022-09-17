@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-b30f2bda\",\"path\":\"/tag/ide/\",\"title\":\"IDE 标签\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"IDE 标签\",\"blog\":{\"type\":\"category\",\"name\":\"IDE\",\"key\":\"tag\"},\"layout\":\"Blog\",\"summary\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://flot.moe/tag/ide/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"Flot 的知识库\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"IDE 标签\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":0},\"filePathRelative\":null}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

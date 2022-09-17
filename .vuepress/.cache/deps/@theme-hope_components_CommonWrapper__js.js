@@ -1,28 +1,27 @@
 import {
   useSidebarItems
-} from "./chunk-3KTJU62Y.js";
+} from "./chunk-A5VW2ZSS.js";
 import {
+  useEventListener,
   useMobile,
   usePageAuthor,
-  useThemeLocaleData
-} from "./chunk-GPPWGUY2.js";
+  useThemeLocaleData,
+  useThrottleFn
+} from "./chunk-QJ6DX5RZ.js";
 import {
   c,
   u
-} from "./chunk-KAL2VPKS.js";
-import "./chunk-JDI45QS3.js";
-import "./chunk-HAYHY7XC.js";
+} from "./chunk-Z5NJLK7X.js";
+import "./chunk-I7F6NC35.js";
+import "./chunk-LGJREDHN.js";
+import "./chunk-23CFZDLP.js";
 import {
   client_exports
-} from "./chunk-FECFGNAG.js";
-import "./chunk-ZZFPM4EY.js";
+} from "./chunk-ANKY43RT.js";
 import {
   useRouter
-} from "./chunk-ANJIMETJ.js";
-import {
-  useEventListener,
-  useThrottleFn
-} from "./chunk-S3VVWPG2.js";
+} from "./chunk-OFHRJP5O.js";
+import "./chunk-2UX2KQYZ.js";
 import {
   Transition,
   computed,
@@ -33,13 +32,12 @@ import {
   ref,
   resolveComponent,
   watch
-} from "./chunk-PWHMU4FR.js";
-import "./chunk-WXFYXWFA.js";
-import "./chunk-WCXEAEE2.js";
-import "./chunk-5E3NKPRU.js";
+} from "./chunk-ARDOOAUT.js";
+import "./chunk-WV4GUBZO.js";
+import "./chunk-BPKF3OQJ.js";
 
-// node_modules/vuepress-theme-hope/lib/client/components/PageFooter.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/styles/footer.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/PageFooter.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/styles/footer.scss";
 var PageFooter_default = defineComponent({
   name: "PageFooter",
   setup() {
@@ -65,8 +63,8 @@ var PageFooter_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/components/CommonWrapper.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/styles/common.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/components/CommonWrapper.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/styles/common.scss";
 var CommonWrapper_default = defineComponent({
   name: "CommonWrapper",
   props: {

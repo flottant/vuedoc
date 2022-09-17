@@ -1,42 +1,41 @@
 import {
   useDarkMode
-} from "./chunk-HFNHJ7V7.js";
+} from "./chunk-TJUWHBR7.js";
 import {
   resolveRepoType
-} from "./chunk-5MDCQZ5P.js";
+} from "./chunk-LOJADGYG.js";
 import {
   useAutoLink,
+  useFullscreen,
   useMobile,
   usePure,
+  useScrollLock,
   useThemeData,
   useThemeLocaleData
-} from "./chunk-GPPWGUY2.js";
+} from "./chunk-QJ6DX5RZ.js";
 import {
   a,
   c
-} from "./chunk-KAL2VPKS.js";
+} from "./chunk-Z5NJLK7X.js";
 import {
   AutoLink_default
-} from "./chunk-JDI45QS3.js";
+} from "./chunk-I7F6NC35.js";
 import {
   Icon_default
-} from "./chunk-HAYHY7XC.js";
-import {
-  client_exports
-} from "./chunk-FECFGNAG.js";
+} from "./chunk-LGJREDHN.js";
 import {
   isLinkExternal,
   isLinkHttp
-} from "./chunk-ZZFPM4EY.js";
+} from "./chunk-23CFZDLP.js";
+import {
+  client_exports
+} from "./chunk-ANKY43RT.js";
 import {
   RouterLink,
   useRoute,
   useRouter
-} from "./chunk-ANJIMETJ.js";
-import {
-  useFullscreen,
-  useScrollLock
-} from "./chunk-S3VVWPG2.js";
+} from "./chunk-OFHRJP5O.js";
+import "./chunk-2UX2KQYZ.js";
 import {
   Transition,
   computed,
@@ -48,14 +47,13 @@ import {
   resolveComponent,
   toRef,
   watch
-} from "./chunk-PWHMU4FR.js";
+} from "./chunk-ARDOOAUT.js";
 import {
   isString
-} from "./chunk-WXFYXWFA.js";
-import "./chunk-WCXEAEE2.js";
-import "./chunk-5E3NKPRU.js";
+} from "./chunk-WV4GUBZO.js";
+import "./chunk-BPKF3OQJ.js";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/icons/i18nIcon.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/icons/i18nIcon.js
 var I18nIcon = () => h(a, { name: "i18n" }, () => [
   h("path", {
     d: "M379.392 460.8 494.08 575.488l-42.496 102.4L307.2 532.48 138.24 701.44l-71.68-72.704L234.496 460.8l-45.056-45.056c-27.136-27.136-51.2-66.56-66.56-108.544h112.64c7.68 14.336 16.896 27.136 26.112 35.84l45.568 46.08 45.056-45.056C382.976 312.32 409.6 247.808 409.6 204.8H0V102.4h256V0h102.4v102.4h256v102.4H512c0 70.144-37.888 161.28-87.04 210.944L378.88 460.8zM576 870.4 512 1024H409.6l256-614.4H768l256 614.4H921.6l-64-153.6H576zM618.496 768h196.608L716.8 532.48 618.496 768z"
@@ -63,7 +61,7 @@ var I18nIcon = () => h(a, { name: "i18n" }, () => [
 ]);
 I18nIcon.displayName = "I18nIcon";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/icons/outlookIcon.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/icons/outlookIcon.js
 var OutlookIcon = () => h(a, { name: "outlook" }, () => [
   h("path", {
     d: "M224 800c0 9.6 3.2 44.8 6.4 54.4 6.4 48-48 76.8-48 76.8s80 41.6 147.2 0 134.4-134.4 38.4-195.2c-22.4-12.8-41.6-19.2-57.6-19.2C259.2 716.8 227.2 761.6 224 800zM560 675.2l-32 51.2c-51.2 51.2-83.2 32-83.2 32 25.6 67.2 0 112-12.8 128 25.6 6.4 51.2 9.6 80 9.6 54.4 0 102.4-9.6 150.4-32l0 0c3.2 0 3.2-3.2 3.2-3.2 22.4-16 12.8-35.2 6.4-44.8-9.6-12.8-12.8-25.6-12.8-41.6 0-54.4 60.8-99.2 137.6-99.2 6.4 0 12.8 0 22.4 0 12.8 0 38.4 9.6 48-25.6 0-3.2 0-3.2 3.2-6.4 0-3.2 3.2-6.4 3.2-6.4 6.4-16 6.4-16 6.4-19.2 9.6-35.2 16-73.6 16-115.2 0-105.6-41.6-198.4-108.8-268.8C704 396.8 560 675.2 560 675.2zM224 419.2c0-28.8 22.4-51.2 51.2-51.2 28.8 0 51.2 22.4 51.2 51.2 0 28.8-22.4 51.2-51.2 51.2C246.4 470.4 224 448 224 419.2zM320 284.8c0-22.4 19.2-41.6 41.6-41.6 22.4 0 41.6 19.2 41.6 41.6 0 22.4-19.2 41.6-41.6 41.6C339.2 326.4 320 307.2 320 284.8zM457.6 208c0-12.8 12.8-25.6 25.6-25.6 12.8 0 25.6 12.8 25.6 25.6 0 12.8-12.8 25.6-25.6 25.6C470.4 233.6 457.6 220.8 457.6 208zM128 505.6C128 592 153.6 672 201.6 736c28.8-60.8 112-60.8 124.8-60.8-16-51.2 16-99.2 16-99.2l316.8-422.4c-48-19.2-99.2-32-150.4-32C297.6 118.4 128 291.2 128 505.6zM764.8 86.4c-22.4 19.2-390.4 518.4-390.4 518.4-22.4 28.8-12.8 76.8 22.4 99.2l9.6 6.4c35.2 22.4 80 12.8 99.2-25.6 0 0 6.4-12.8 9.6-19.2 54.4-105.6 275.2-524.8 288-553.6 6.4-19.2-3.2-32-19.2-32C777.6 76.8 771.2 80 764.8 86.4z"
@@ -71,7 +69,7 @@ var OutlookIcon = () => h(a, { name: "outlook" }, () => [
 ]);
 OutlookIcon.displayName = "OutlookIcon";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/icons/repoIcon.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/icons/repoIcon.js
 var GitHubIcon = () => h(a, { name: "github" }, () => h("path", {
   d: "M511.957 21.333C241.024 21.333 21.333 240.981 21.333 512c0 216.832 140.544 400.725 335.574 465.664 24.49 4.395 32.256-10.07 32.256-23.083 0-11.69.256-44.245 0-85.205-136.448 29.61-164.736-64.64-164.736-64.64-22.315-56.704-54.4-71.765-54.4-71.765-44.587-30.464 3.285-29.824 3.285-29.824 49.195 3.413 75.179 50.517 75.179 50.517 43.776 75.008 114.816 53.333 142.762 40.79 4.523-31.66 17.152-53.377 31.19-65.537-108.971-12.458-223.488-54.485-223.488-242.602 0-53.547 19.114-97.323 50.517-131.67-5.035-12.33-21.93-62.293 4.779-129.834 0 0 41.258-13.184 134.912 50.346a469.803 469.803 0 0 1 122.88-16.554c41.642.213 83.626 5.632 122.88 16.554 93.653-63.488 134.784-50.346 134.784-50.346 26.752 67.541 9.898 117.504 4.864 129.834 31.402 34.347 50.474 78.123 50.474 131.67 0 188.586-114.73 230.016-224.042 242.09 17.578 15.232 33.578 44.672 33.578 90.454v135.85c0 13.142 7.936 27.606 32.854 22.87C862.25 912.597 1002.667 728.747 1002.667 512c0-271.019-219.648-490.667-490.71-490.667z"
 }));
@@ -93,8 +91,8 @@ var SourceIcon = () => h(a, { name: "source" }, () => h("path", {
 }));
 SourceIcon.displayName = "SourceIcon";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/DropdownLink.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/dropdown-link.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/DropdownLink.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/dropdown-link.scss";
 var DropdownLink_default = defineComponent({
   name: "NavbarDropdownLink",
   props: {
@@ -161,7 +159,7 @@ var DropdownLink_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/composables/navbarConfig.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/composables/navbarConfig.js
 var resolveNavbarItem = (item, prefix = "") => {
   if (isString(item))
     return useAutoLink(`${prefix}${item}`);
@@ -178,7 +176,7 @@ var resolveNavbarItem = (item, prefix = "") => {
 };
 var useNavbarConfig = () => computed(() => (useThemeLocaleData().value.navbar || []).map((item) => resolveNavbarItem(item)));
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/composables/navbarLanguageDropdown.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/composables/navbarLanguageDropdown.js
 var useNavbarLanguageDropdown = () => {
   const router = useRouter();
   const routeLocale = (0, client_exports.useRouteLocale)();
@@ -217,7 +215,7 @@ var useNavbarLanguageDropdown = () => {
   });
 };
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/composables/repoLink.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/composables/repoLink.js
 var useNavbarRepo = () => {
   const themeLocale = useThemeLocaleData();
   const repo = computed(() => themeLocale.value.repo || null);
@@ -238,7 +236,7 @@ var useNavbarRepo = () => {
   });
 };
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/LanguageDropdown.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/LanguageDropdown.js
 var LanguageDropdown_default = defineComponent({
   name: "LanguageDropdown",
   setup() {
@@ -259,8 +257,8 @@ var LanguageDropdown_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavbarBrand.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/navbar-brand.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavbarBrand.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/navbar-brand.scss";
 var NavbarBrand_default = defineComponent({
   name: "NavbarBrand",
   setup() {
@@ -287,8 +285,8 @@ var NavbarBrand_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavbarLinks.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/navbar-links.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavbarLinks.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/navbar-links.scss";
 var NavbarLinks_default = defineComponent({
   name: "NavbarLinks",
   setup() {
@@ -299,8 +297,8 @@ var NavbarLinks_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavScreenDropdown.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/nav-screen-dropdown.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavScreenDropdown.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/nav-screen-dropdown.scss";
 var NavScreenDropdown_default = defineComponent({
   name: "NavScreenDropdown",
   props: {
@@ -361,8 +359,8 @@ var NavScreenDropdown_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavScreenLinks.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/nav-screen-links.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavScreenLinks.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/nav-screen-links.scss";
 var NavScreenLinks_default = defineComponent({
   name: "NavScreenLinks",
   setup() {
@@ -371,7 +369,7 @@ var NavScreenLinks_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/icons/darkmodeIcon.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/icons/darkmodeIcon.js
 var DarkIcon = () => h(a, { name: "dark" }, () => h("path", {
   d: "M524.8 938.667h-4.267a439.893 439.893 0 0 1-313.173-134.4 446.293 446.293 0 0 1-11.093-597.334A432.213 432.213 0 0 1 366.933 90.027a42.667 42.667 0 0 1 45.227 9.386 42.667 42.667 0 0 1 10.24 42.667 358.4 358.4 0 0 0 82.773 375.893 361.387 361.387 0 0 0 376.747 82.774 42.667 42.667 0 0 1 54.187 55.04 433.493 433.493 0 0 1-99.84 154.88 438.613 438.613 0 0 1-311.467 128z"
 }));
@@ -385,7 +383,7 @@ var AutoIcon = () => h(a, { name: "auto" }, () => h("path", {
 }));
 AutoIcon.displayName = "AutoIcon";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/icons/fullscreenIcon.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/icons/fullscreenIcon.js
 var EnterFullScreenIcon = () => h(a, { name: "enter-fullscreen" }, () => h("path", {
   d: "M762.773 90.24h-497.28c-96.106 0-174.4 78.293-174.4 174.4v497.28c0 96.107 78.294 174.4 174.4 174.4h497.28c96.107 0 175.04-78.293 174.4-174.4V264.64c0-96.213-78.186-174.4-174.4-174.4zm-387.2 761.173H215.04c-21.867 0-40.427-17.92-41.067-41.066V649.92c0-22.507 17.92-40.427 40.427-40.427 11.307 0 21.227 4.694 28.48 11.947 7.253 7.253 11.947 17.92 11.947 28.48v62.293l145.28-145.28c15.893-15.893 41.813-15.893 57.706 0 15.894 15.894 15.894 41.814 0 57.707l-145.28 145.28h62.294c22.506 0 40.426 17.92 40.426 40.427s-17.173 41.066-39.68 41.066zM650.24 165.76h160.427c21.866 0 40.426 17.92 41.066 41.067v160.426c0 22.507-17.92 40.427-40.426 40.427-11.307 0-21.227-4.693-28.48-11.947-7.254-7.253-11.947-17.92-11.947-28.48v-62.186L625.6 450.347c-15.893 15.893-41.813 15.893-57.707 0-15.893-15.894-15.893-41.814 0-57.707l145.28-145.28H650.88c-22.507 0-40.427-17.92-40.427-40.427s17.174-41.173 39.787-41.173z"
 }));
@@ -395,7 +393,7 @@ var CancelFullScreenIcon = () => h(a, { name: "cancel-fullscreen" }, () => h("pa
 }));
 CancelFullScreenIcon.displayName = "CancelFullScreenIcon";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/icons/outlookIcon.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/icons/outlookIcon.js
 var OutlookIcon2 = () => h(a, { name: "outlook" }, () => [
   h("path", {
     d: "M224 800c0 9.6 3.2 44.8 6.4 54.4 6.4 48-48 76.8-48 76.8s80 41.6 147.2 0 134.4-134.4 38.4-195.2c-22.4-12.8-41.6-19.2-57.6-19.2C259.2 716.8 227.2 761.6 224 800zM560 675.2l-32 51.2c-51.2 51.2-83.2 32-83.2 32 25.6 67.2 0 112-12.8 128 25.6 6.4 51.2 9.6 80 9.6 54.4 0 102.4-9.6 150.4-32l0 0c3.2 0 3.2-3.2 3.2-3.2 22.4-16 12.8-35.2 6.4-44.8-9.6-12.8-12.8-25.6-12.8-41.6 0-54.4 60.8-99.2 137.6-99.2 6.4 0 12.8 0 22.4 0 12.8 0 38.4 9.6 48-25.6 0-3.2 0-3.2 3.2-6.4 0-3.2 3.2-6.4 3.2-6.4 6.4-16 6.4-16 6.4-19.2 9.6-35.2 16-73.6 16-115.2 0-105.6-41.6-198.4-108.8-268.8C704 396.8 560 675.2 560 675.2zM224 419.2c0-28.8 22.4-51.2 51.2-51.2 28.8 0 51.2 22.4 51.2 51.2 0 28.8-22.4 51.2-51.2 51.2C246.4 470.4 224 448 224 419.2zM320 284.8c0-22.4 19.2-41.6 41.6-41.6 22.4 0 41.6 19.2 41.6 41.6 0 22.4-19.2 41.6-41.6 41.6C339.2 326.4 320 307.2 320 284.8zM457.6 208c0-12.8 12.8-25.6 25.6-25.6 12.8 0 25.6 12.8 25.6 25.6 0 12.8-12.8 25.6-25.6 25.6C470.4 233.6 457.6 220.8 457.6 208zM128 505.6C128 592 153.6 672 201.6 736c28.8-60.8 112-60.8 124.8-60.8-16-51.2 16-99.2 16-99.2l316.8-422.4c-48-19.2-99.2-32-150.4-32C297.6 118.4 128 291.2 128 505.6zM764.8 86.4c-22.4 19.2-390.4 518.4-390.4 518.4-22.4 28.8-12.8 76.8 22.4 99.2l9.6 6.4c35.2 22.4 80 12.8 99.2-25.6 0 0 6.4-12.8 9.6-19.2 54.4-105.6 275.2-524.8 288-553.6 6.4-19.2-3.2-32-19.2-32C777.6 76.8 771.2 80 764.8 86.4z"
@@ -403,8 +401,8 @@ var OutlookIcon2 = () => h(a, { name: "outlook" }, () => [
 ]);
 OutlookIcon2.displayName = "OutlookIcon";
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/AppearanceSwitch.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/appearance-switch.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/AppearanceSwitch.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/appearance-switch.scss";
 var AppearanceSwitch_default = defineComponent({
   name: "AppearanceSwitch",
   setup() {
@@ -440,8 +438,8 @@ var AppearanceSwitch_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/AppearanceMode.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/appearance-switch.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/AppearanceMode.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/appearance-switch.scss";
 var AppearanceMode_default = defineComponent({
   name: "AppearanceMode",
   setup() {
@@ -457,8 +455,8 @@ var AppearanceMode_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/ThemeColorPicker.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/theme-color-picker.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/ThemeColorPicker.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/theme-color-picker.scss";
 var ThemeColorPicker_default = defineComponent({
   name: "ThemeColorPicker",
   props: {
@@ -498,8 +496,8 @@ var ThemeColorPicker_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/ThemeColor.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/theme-color-picker.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/ThemeColor.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/theme-color-picker.scss";
 var ThemeColor_default = defineComponent({
   name: "ThemeColor",
   setup() {
@@ -517,8 +515,8 @@ var ThemeColor_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/ToggleFullScreenButton.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/toggle-full-screen-button.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/ToggleFullScreenButton.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/toggle-full-screen-button.scss";
 var ToggleFullScreenButton_default = defineComponent({
   name: "ToggleFullScreenButton",
   setup() {
@@ -537,7 +535,7 @@ var ToggleFullScreenButton_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/OutlookSettings.js
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/OutlookSettings.js
 var OutlookSettings_default = defineComponent({
   name: "OutlookSettings",
   setup() {
@@ -554,8 +552,8 @@ var OutlookSettings_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavScreen.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/nav-screen.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/NavScreen.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/nav-screen.scss";
 var NavScreen_default = defineComponent({
   name: "NavScreen",
   props: {
@@ -601,8 +599,8 @@ var NavScreen_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/OutlookButton.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/outlook-button.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/components/OutlookButton.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/outlook/styles/outlook-button.scss";
 var OutlookButton_default = defineComponent({
   name: "OutlookButton",
   setup() {
@@ -632,8 +630,8 @@ var OutlookButton_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/ToggleNavbarButton.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/toggle-navbar-button.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/ToggleNavbarButton.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/toggle-navbar-button.scss";
 var ToggleNavbarButton = ({ active = false }, { emit }) => h("button", {
   class: ["toggle-navbar-button", { "is-active": active }],
   "aria-label": "Toggle Navbar",
@@ -648,8 +646,8 @@ var ToggleNavbarButton = ({ active = false }, { emit }) => h("button", {
 ToggleNavbarButton.displayName = "ToggleNavbarButton";
 var ToggleNavbarButton_default = ToggleNavbarButton;
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/ToggleSidebarButton.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/toggle-sidebar-button.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/ToggleSidebarButton.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/toggle-sidebar-button.scss";
 var ToggleSidebarButton = (_, { emit }) => h("button", {
   class: "toggle-sidebar-button",
   title: "Toggle Sidebar",
@@ -659,8 +657,8 @@ ToggleSidebarButton.displayName = "ToggleSidebarButton";
 ToggleSidebarButton.emits = ["toggle"];
 var ToggleSidebarButton_default = ToggleSidebarButton;
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/RepoLink.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/repo-link.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/RepoLink.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/repo-link.scss";
 var RepoLink_default = defineComponent({
   name: "RepoLink",
   components: { BitbucketIcon, GiteeIcon, GitHubIcon, GitlabIcon, SourceIcon },
@@ -686,8 +684,8 @@ var RepoLink_default = defineComponent({
   }
 });
 
-// node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/Navbar.js
-import "C:/Users/flott/Documents/vuedoc/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/navbar.scss";
+// node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/Navbar.js
+import "C:/Users/flott/Documents/vuedoc/node_modules/.pnpm/vuepress-theme-hope@2.0.0-beta.100/node_modules/vuepress-theme-hope/lib/client/modules/navbar/styles/navbar.scss";
 var Navbar_default = defineComponent({
   name: "NavBar",
   emits: ["toggle-sidebar"],

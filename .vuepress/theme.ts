@@ -11,10 +11,12 @@ export default hopeTheme({
   },
 
   iconAssets: "iconfont",
+  lastUpdated: true,
+  contributors: true,
 
   logo: "/logo.svg",
 
-  repo: "github.com/flottant/vuedoc",
+  repo: "flottant/vuedoc",
 
   //docsDir: "demo/src",
 
