@@ -1,6 +1,7 @@
 ---
 title: 第一课-基本操作与矩阵
 icon: matlab
+description: 计算，矩阵与基础命令
 category:
   - 语言基础
 tag:
@@ -8,6 +9,7 @@ tag:
   - MATLAB
 article: true
 ---
+
 
 ## 将 MATLAB 当作计算器
 
@@ -48,7 +50,7 @@ ans =
 #### 加法
 
 |函数名|用法|
-| ----------------------------------------------------------------| ----|
+| :---------------------------------------------------------------| ----|
 |[`plus,+`](https://ww2.mathworks.cn/help/matlab/ref/plus.html)|添加数字，追加字符串|
 |[`sum`](https://ww2.mathworks.cn/help/matlab/ref/sum.html)|数组元素总和|
 |[`cumsum`](https://ww2.mathworks.cn/help/matlab/ref/cumsum.html)|累积和|
@@ -64,7 +66,7 @@ ans =
 #### 乘法
 
 |函数名|用法|
-| ------------------------------------------------------------------------| ----|
+| :-----------------------------------------------------------------------| :---|
 |[`.*`](https://ww2.mathworks.cn/help/matlab/ref/times.html)|乘法|
 |[`*`](https://ww2.mathworks.cn/help/matlab/ref/mtimes.html)|矩阵乘法|
 |[`prod`](https://ww2.mathworks.cn/help/matlab/ref/prod.html)|数组元素的乘积|
@@ -82,10 +84,10 @@ ans =
 
 #### 幂
 
-|函数名|用法|例子|
-| -----------------------------------------------------------| ----| ----|
-|[`.^`](https://ww2.mathworks.cn/help/matlab/ref/power.html)|按元素求幂||
-|[`^`](https://ww2.mathworks.cn/help/matlab/ref/mpower.html)|矩阵幂||
+|函数名|用法|
+| -----------------------------------------------------------| ----|
+|[`.^`](https://ww2.mathworks.cn/help/matlab/ref/power.html)|按元素求幂|
+|[`^`](https://ww2.mathworks.cn/help/matlab/ref/mpower.html)|矩阵幂|
 
 #### 转置
 
@@ -99,7 +101,7 @@ ans =
 #### 数组符号
 
 |函数名|用法|
-| ----------------------------------------------------------------| ----|
+| :---------------------------------------------------------------| :---|
 |[`uminus`](https://ww2.mathworks.cn/help/matlab/ref/uminus.html)|一元减法|
 |[`uplus`](https://ww2.mathworks.cn/help/matlab/ref/uplus.html)|一元加法|
 
@@ -118,46 +120,46 @@ ans =
 #### 自定义二元函数
 
 |函数名|用法|
-| ----------------------------------------------------------------| :--: |
+| ----------------------------------------------------------------| :--- |
 |[`bsxfun`](https://ww2.mathworks.cn/help/matlab/ref/bsxfun.html)|对两个数组应用按元素运算（启用隐式扩展）|
 
 ### 三角运算
 
 #### 简单三角运算
 
-|函数名 |用法|例子|
-| ---------------------------------------------------------------------| ----------| ----|
-|[`sin`](https://ww2.mathworks.cn/help/matlab/ref/sin.html)|参数的正弦，以弧度为单位|sin(2)|
-|[`sind`](https://ww2.mathworks.cn/help/matlab/ref/sind.html)|参数的正弦，以度为单位|sind(45)|
-|[`sinpi`](https://ww2.mathworks.cn/help/matlab/ref/double.sinpi.html)|准确地计算 sin(X*pi)|sinpi(2)|
-|[`asin`](https://ww2.mathworks.cn/help/matlab/ref/asin.html)|反正弦（以弧度为单位）|asin(0.7)|
-|[`asind`](https://ww2.mathworks.cn/help/matlab/ref/asind.html)|反正弦（以度为单位）|asind(0.7)|
-|[`sinh`](https://ww2.mathworks.cn/help/matlab/ref/sinh.html)|双曲正弦|sinh(2)|
-|[`asinh`](https://ww2.mathworks.cn/help/matlab/ref/asinh.html)|反双曲正弦|asinh(0.3)|
+|函数名 |用法|
+| ---------------------------------------------------------------------| ----------|
+|[`sin`](https://ww2.mathworks.cn/help/matlab/ref/sin.html)|参数的正弦，以弧度为单位|
+|[`sind`](https://ww2.mathworks.cn/help/matlab/ref/sind.html)|参数的正弦，以度为单位|
+|[`sinpi`](https://ww2.mathworks.cn/help/matlab/ref/double.sinpi.html)|准确地计算 sin(X*pi)|
+|[`asin`](https://ww2.mathworks.cn/help/matlab/ref/asin.html)|反正弦（以弧度为单位）|
+|[`asind`](https://ww2.mathworks.cn/help/matlab/ref/asind.html)|反正弦（以度为单位）|
+|[`sinh`](https://ww2.mathworks.cn/help/matlab/ref/sinh.html)|双曲正弦|
+|[`asinh`](https://ww2.mathworks.cn/help/matlab/ref/asinh.html)|反双曲正弦|
 
 cos,tan,csc,sec,cot 同理。
 
 #### 斜边
 
-|函数名||用法|例子|
-| --------------------------------------------------------------| ----------------------| ------------| ----|
-|[`hypot`](https://ww2.mathworks.cn/help/matlab/ref/hypot.html)||平方和的平方根（斜边）|hypot(3,4)=5|
+|函数名|用法|
+| --------------------------------------------------------------| ------------|
+|[`hypot`](https://ww2.mathworks.cn/help/matlab/ref/hypot.html)|平方和的平方根（斜边）|
 
 #### 度/弧度转换
 
-|函数名|用法|例子|
-| ------------------------------------------------------------------| ------------| ----|
-|[`deg2rad`](https://ww2.mathworks.cn/help/matlab/ref/deg2rad.html)|将角从以度为单位转换为以弧度为单位|deg2rad(90)|
-|[`rad2deg`](https://ww2.mathworks.cn/help/matlab/ref/rad2deg.html)|将角的单位从弧度转换为度|deg2rad(1.4)|
+|函数名|用法|
+| ------------------------------------------------------------------| ------------|
+|[`deg2rad`](https://ww2.mathworks.cn/help/matlab/ref/deg2rad.html)|将角从以度为单位转换为以弧度为单位|
+|[`rad2deg`](https://ww2.mathworks.cn/help/matlab/ref/rad2deg.html)|将角的单位从弧度转换为度|
 
 #### 坐标转换
 
-|函数名|用法|例子|
-| --------------------------------------------------------------------| -------------------------------| ----|
-|[`cart2pol`](https://ww2.mathworks.cn/help/matlab/ref/cart2pol.html)|将笛卡尔坐标转换为极坐标或柱坐标|x = [2,3]<br />y = [4,5]<br />cart2pol(x,y)|
-|[`cart2sph`](https://ww2.mathworks.cn/help/matlab/ref/cart2sph.html)|将笛卡尔坐标转换为球面坐标|同理|
-|[`pol2cart`](https://ww2.mathworks.cn/help/matlab/ref/pol2cart.html)|将极坐标或柱坐标转换为笛卡尔坐标|同理|
-|[`sph2cart`](https://ww2.mathworks.cn/help/matlab/ref/sph2cart.html)|将球面坐标转换为笛卡尔坐标|同理|
+|函数名|用法|
+| --------------------------------------------------------------------| -------------------------------|
+|[`cart2pol`](https://ww2.mathworks.cn/help/matlab/ref/cart2pol.html)|将笛卡尔坐标转换为极坐标或柱坐标|
+|[`cart2sph`](https://ww2.mathworks.cn/help/matlab/ref/cart2sph.html)|将笛卡尔坐标转换为球面坐标|
+|[`pol2cart`](https://ww2.mathworks.cn/help/matlab/ref/pol2cart.html)|将极坐标或柱坐标转换为笛卡尔坐标|
+|[`sph2cart`](https://ww2.mathworks.cn/help/matlab/ref/sph2cart.html)|将球面坐标转换为笛卡尔坐标|
 
 ### 指数和对数
 
@@ -238,15 +240,15 @@ MATLAB 的默认存储数据类型为 double, 即双精度浮点数。
 
 `format` 命令用来调整数据输出格式。
 
-|类型|说明|举例|
-| --------| -------------------------------------------| -----------------------|
-|short|小数点后四位|3.1416|
-|long|双精度小数点后 15 位，单精度小数点后 7 位|3.141592653589793|
-|shortE|科学计数法表示 short|3.1416e+00|
-|longE|科学计数法表示 long|3.141592653589793e+00|
-|bank|银行计数，即小数点后两位|3.14|
-|hex|以 16 进制表示二进制数|400921fb54442d18|
-|rat|化为小整数分数|355/113|
+|类型|说明|
+| --------| -------------------------------------------|
+|short|小数点后四位|
+|long|双精度小数点后 15 位，单精度小数点后 7 位|
+|shortE|科学计数法表示 short|
+|longE|科学计数法表示 long|
+|bank|银行计数，即小数点后两位|
+|hex|以 16 进制表示二进制数|
+|rat|化为小整数分数|
 
 练习
 
