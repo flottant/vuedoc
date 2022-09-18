@@ -6,10 +6,6 @@ p, ul, ol {
     line-height: 1.9;
 }
 $theme-color: #2196f3;
-:root {
-    --content-width: 980px;
-}
+$content-width: 980px;
 
-:root {
-    --text-color: #000000;
-}
+$text-color: #000000;
