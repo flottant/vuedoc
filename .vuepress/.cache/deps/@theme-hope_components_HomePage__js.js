@@ -6,16 +6,16 @@ import {
 } from "./chunk-R5RP5QDZ.js";
 import {
   AutoLink_default
-} from "./chunk-I7F6NC35.js";
+} from "./chunk-JPF6VQ7U.js";
 import {
   Icon_default
-} from "./chunk-LGJREDHN.js";
-import {
-  isLinkExternal
-} from "./chunk-23CFZDLP.js";
+} from "./chunk-STWG5RJF.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";
+import {
+  isLinkExternal
+} from "./chunk-23CFZDLP.js";
 import {
   RouterLink
 } from "./chunk-OFHRJP5O.js";

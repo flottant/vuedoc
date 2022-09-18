@@ -2,23 +2,26 @@ import {
   EditIcon
 } from "./chunk-OLOXLM5V.js";
 import {
-  useDarkMode
-} from "./chunk-TJUWHBR7.js";
-import {
   TOC_default
-} from "./chunk-44YTGTZL.js";
+} from "./chunk-DDUN6VG6.js";
 import {
   PageInfo_default,
   useContributors,
   useEditLink,
   useUpdateTime
-} from "./chunk-T3CADM6K.js";
+} from "./chunk-ZLLI4QY4.js";
+import {
+  useSidebarItems
+} from "./chunk-P24BI4X5.js";
+import {
+  MarkdownContent_default
+} from "./chunk-R5RP5QDZ.js";
+import {
+  useDarkMode
+} from "./chunk-TJUWHBR7.js";
 import {
   getAncestorLinks
 } from "./chunk-LOJADGYG.js";
-import {
-  useSidebarItems
-} from "./chunk-A5VW2ZSS.js";
 import {
   useAutoLink,
   useEventListener,
@@ -32,20 +35,17 @@ import {
   x
 } from "./chunk-Z5NJLK7X.js";
 import {
-  MarkdownContent_default
-} from "./chunk-R5RP5QDZ.js";
-import {
   AutoLink_default
-} from "./chunk-I7F6NC35.js";
+} from "./chunk-JPF6VQ7U.js";
 import {
   Icon_default
-} from "./chunk-LGJREDHN.js";
-import {
-  isPlainObject
-} from "./chunk-23CFZDLP.js";
+} from "./chunk-STWG5RJF.js";
 import {
   client_exports
 } from "./chunk-ANKY43RT.js";
+import {
+  isPlainObject
+} from "./chunk-23CFZDLP.js";
 import {
   RouterLink,
   useRoute,

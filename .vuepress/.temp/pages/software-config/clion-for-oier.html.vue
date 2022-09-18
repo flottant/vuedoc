@@ -1,11 +1,12 @@
-<template><div><h1 id="简洁概要版" tabindex="-1"><a class="header-anchor" href="#简洁概要版" aria-hidden="true">#</a> 简洁概要版</h1>
+<template><div><p>Clion 很适合 OIer 吗？反正调试变量行内显示挺爽的。</p>
+<h2 id="简洁概要版" tabindex="-1"><a class="header-anchor" href="#简洁概要版" aria-hidden="true">#</a> 简洁概要版</h2>
 <p>安装 CLion, 安装 single Execute 插件。初始化代码时不要选择关联，新建完文件后更新 Cmake 项目。这样一个项目里面就可以放很多道题目了。</p>
-<h1 id="图文详细版" tabindex="-1"><a class="header-anchor" href="#图文详细版" aria-hidden="true">#</a> 图文详细版</h1>
-<h2 id="安装过程" tabindex="-1"><a class="header-anchor" href="#安装过程" aria-hidden="true">#</a> 安装过程</h2>
+<h2 id="图文详细版" tabindex="-1"><a class="header-anchor" href="#图文详细版" aria-hidden="true">#</a> 图文详细版</h2>
+<h3 id="安装过程" tabindex="-1"><a class="header-anchor" href="#安装过程" aria-hidden="true">#</a> 安装过程</h3>
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/aHQ9kHe.jpeg" alt="" loading="lazy"></p>
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/DZjAJbe.jpeg" alt="" loading="lazy"></p>
 <p>记得重启。嗯。</p>
-<h2 id="使用教程" tabindex="-1"><a class="header-anchor" href="#使用教程" aria-hidden="true">#</a> 使用教程</h2>
+<h3 id="使用教程" tabindex="-1"><a class="header-anchor" href="#使用教程" aria-hidden="true">#</a> 使用教程</h3>
 <p>用各种奇怪姿势激活后：</p>
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/O0eNSaN.jpeg" alt="" loading="lazy"></p>
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/4wBjDuE.jpeg" alt="" loading="lazy"></p>
@@ -18,7 +19,7 @@
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/DR6CcaZ.jpeg" alt="" loading="lazy"></p>
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/parUH7m.jpeg" alt="" loading="lazy"></p>
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/esaph2B.jpeg" alt="" loading="lazy"></p>
-<h2 id="开写" tabindex="-1"><a class="header-anchor" href="#开写" aria-hidden="true">#</a> 开写</h2>
+<h3 id="开写" tabindex="-1"><a class="header-anchor" href="#开写" aria-hidden="true">#</a> 开写</h3>
 <p>如果这里没有出现这个选项，先别急，Clion 在构建索引</p>
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/ImAgyWG.jpeg" alt="" loading="lazy"></p>
 <p><img src="https://search.pstatic.net/common/?src=https://i.imgur.com/yz258OL.jpeg" alt="" loading="lazy"></p>
