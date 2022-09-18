@@ -2,7 +2,7 @@
 title: 关于这个网站
 description:  
 date: 2022-09-17
-icon: code
+icon: about
 order: 2
 category:
   - 介绍
