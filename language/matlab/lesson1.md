@@ -12,14 +12,15 @@ article: true
 
 ## 将 MATLAB 当作计算器
 
+样例：
 
-$a\cos \left(\sqrt{\frac{(1+2+3+4)^3}{5}}\right)b$
+$\cos \left(\sqrt{\frac{(1+2+3+4)^3}{5}}\right)$
 
-$a\sin (\sqrt{\pi})+\ln (\tan (1))b$
+$\sin (\sqrt{\pi})+\ln (\tan (1))$
 
-$a\displaystyle 2^{3.5 \times 1.7}b$
+$\displaystyle 2^{3.5 \times 1.7}$
 
-$a\displaystyle e^{\sin (10)}b$
+$\displaystyle e^{\sin (10)}$
 
 ```matlab
 >> cos(sqrt((1+2+3+4)^3/5))
