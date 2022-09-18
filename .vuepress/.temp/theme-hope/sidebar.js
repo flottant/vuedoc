@@ -1,1 +1,0 @@
-export const sidebarData = {"/":["README.md",{"text":"关于网站","icon":"creative","collapsable":true,"prefix":"notes/","children":["aboout-website.md",{"text":"页面渲染测试","icon":"creative","collapsable":true,"prefix":"format/","children":["chinese.md","markdown.md"]}]},{"text":"软件配置","icon":"creative","collapsable":true,"prefix":"software-config/","children":["clion-for-oier.md"]}]}

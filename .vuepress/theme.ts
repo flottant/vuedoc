@@ -13,8 +13,9 @@ export default hopeTheme({
   iconAssets: "iconfont",
   lastUpdated: true,
   contributors: true,
+  
 
-  logo: "/logo.svg",
+  logo: "/f.svg",
 
   repo: "flottant/vuedoc",
 
@@ -33,6 +34,8 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
+    roundAvatar: true,
+    avatar: "logo.svg",
     description: "一个有趣的人",
     intro: "/intro.html",
     medias: {
