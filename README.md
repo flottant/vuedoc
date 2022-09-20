@@ -11,7 +11,7 @@ projects:
   - icon: project
     name: 查看知识库
     desc: 点击跳转到目录结构
-    link: /notes/aboout-website.html
+    link: /about/aboout-website.html
 
   - icon: friend
     name: 掌控物质

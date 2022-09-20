@@ -1,8 +1,7 @@
 ---
-title: 关于网站
+title: 网站介绍
 index: false
 icon: about
-order: 1
 article: false
 ---
 

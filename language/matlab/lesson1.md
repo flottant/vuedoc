@@ -1,5 +1,5 @@
 ---
-title: 第一课-基本操作与矩阵
+title: 第1课：基本操作与矩阵
 icon: matlab
 description: 计算，矩阵与基础命令
 category:
@@ -8,6 +8,7 @@ tag:
   - 语言
   - MATLAB
 article: true
+date: 2022-09-18
 ---
 
 
@@ -234,8 +235,9 @@ MATLAB 的默认存储数据类型为 double, 即双精度浮点数。
 
 删除已经定义的变量：`clear x`
 
+:::danger
 如果不加删除的变量，会清空所有。
-
+:::
 ### Format 命令
 
 `format` 命令用来调整数据输出格式。
