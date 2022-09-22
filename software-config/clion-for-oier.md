@@ -1,6 +1,6 @@
 ---
 title: 给 OIer 的 Clion 配置
-description: 安装 CLion, 安装 single Execute 插件。初始化代码时不要选择关联，新建完文件后更新 Cmake 项目。这样一个项目里面就可以放很多道题目了。
+description: 为什么不试试 Clion 刷题呢？
 date: 2022-09-17
 icon: cpp
 category:
