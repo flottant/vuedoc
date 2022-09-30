@@ -79,7 +79,7 @@ int main()
 //
 // Created by flot on 2022/9/30.
 //
-#include <cstdio>
+#include <stdio.h>
 
 int main()
 {
@@ -187,7 +187,7 @@ int main()
 //
 // Created by flot on 2022/9/30.
 //
-#include <cstdio>
+#include <stdio.h>
 
 int main()
 {
