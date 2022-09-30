@@ -21,9 +21,7 @@ date: 2022-10-01
 
 题目描述
 
-```
 输入10个整数，计算它们的平均值（输出保留1位小数）。 
-```
 
 **输入**
 
@@ -69,7 +67,7 @@ int main()
     for (int i = 0; i < 10; i++)
     {
         cin >> a;
-        sum += a;
+        sum = sum + a;
     }
     cout << "ave=" << fixed << setprecision(1) << sum * 1.0 / 10 << endl;
 }
