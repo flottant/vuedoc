@@ -1,5 +1,5 @@
 ---
-title: 许立成 C语言程序设计A 题解
+title: 许立成 C设计A题解
 icon: code
 description: 许立成 C语言程序设计A
 category:
@@ -44,11 +44,11 @@ date: 2022-10-01
 ```
 ave=7.4
 ```
+:::
+
 题解
 
 :::details
-
-
 
 ::: tabs#lang
 
@@ -156,6 +156,7 @@ public class Main {
 
 :::
 
+
 题解
 
 :::details
@@ -223,6 +224,5 @@ public class Main {
 }
 
 ```
-
 :::
 :::
