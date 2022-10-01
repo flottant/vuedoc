@@ -119,7 +119,6 @@ public class Main {
 
 :::
 
-:::
 
 
 #### 问题 J: 求n的阶乘
@@ -222,5 +221,4 @@ public class Main {
 }
 
 ```
-:::
 :::
