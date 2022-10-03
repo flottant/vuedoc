@@ -11,6 +11,7 @@ tag:
 isOriginal: true
 article: false
 sticky: 99
+dir.order: -99
 ---
 如你所见，这是个个人放放博客的地方。错漏频出很是正常，如果可以，欢迎不吝赐教。
 
