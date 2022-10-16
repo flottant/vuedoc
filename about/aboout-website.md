@@ -27,13 +27,15 @@ dir.order: -99
 
 第一批更新计划：
 
-+ Python 教程 （CS41）
++ Python 教程 （MIT 6.0001）
 
 + Rust 教程
 
++ MATLAB 教程
+
 + 离散数学与计算机数学基础 （MIT 6.042J）
 
-&bnsp;
+&nbsp;
 
 与上课进度同步更新内容：
 
