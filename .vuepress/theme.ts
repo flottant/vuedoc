@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://flot.moe",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_3655018_9drhu2x6xm.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3655018_dbidvebxjef.css",
   lastUpdated: true,
   contributors: true,
   
