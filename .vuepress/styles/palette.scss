@@ -8,4 +8,7 @@ p, ul, ol {
 $theme-color: #2196f3;
 $content-width: 980px;
 
-$text-color: #000000;
+$text-color: (
+    dark: #ddd,
+    light: rgb(0, 0, 0),
+  );
