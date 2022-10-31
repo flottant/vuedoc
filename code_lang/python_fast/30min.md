@@ -15,6 +15,8 @@ date: 2022-10-31
 
 这是原文网址：https://learnxinyminutes.com/docs/zh-cn/python-cn/
 
+注意，本文档适合那些**有一些编程基础的人**迅速了解 Python.
+
 ## 注释
 ```
 # 用井字符开头的是单行注释
