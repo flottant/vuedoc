@@ -13,7 +13,7 @@ export default hopeTheme({
   iconAssets: "//at.alicdn.com/t/c/font_3655018_dbidvebxjef.css",
   lastUpdated: true,
   contributors: true,
-  
+  sidebarSorter:["order", "title","title-number"],
 
   logo: "/f.svg",
 
@@ -107,6 +107,7 @@ export default hopeTheme({
       // provider: "Waline",
       // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
+
 
     mdEnhance: {
       align: true,
