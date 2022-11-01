@@ -1,8 +1,9 @@
 ---
 title: OI 解题报告
-index: false
 icon: code
+index: false
 article: false
-dir.order: -1
+dir:
+    order: 99
 ---
 

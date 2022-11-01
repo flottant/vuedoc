@@ -1,8 +1,9 @@
 ---
 title: MATLAB 基础
-index: false
 icon: matlab
-dir.order: 2
+index: false
+dir:
+    order: 2
 ---
 
 参考内容如下：

@@ -1,8 +1,9 @@
 ---
 title: C++ 进阶
-index: false
 icon: cpp
+index: false
 article: false
-dir.order: 3
+dir:
+    order: 3
 ---
 

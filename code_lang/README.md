@@ -3,6 +3,7 @@ title: 编程语言基础
 index: false
 icon: code
 article: false
-dir.order: 4
+dir:
+    order: 4
 ---
 

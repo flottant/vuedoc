@@ -1,8 +1,9 @@
 ---
 title: 网站介绍
-index: false
 icon: about
+index: false
 article: false
-dir.order: -1
+dir:
+    order: -1
 ---
 

@@ -13,7 +13,7 @@ export default hopeTheme({
   iconAssets: "//at.alicdn.com/t/c/font_3655018_dbidvebxjef.css",
   lastUpdated: true,
   contributors: true,
-  sidebarSorter:["order", "title","title-number"],
+  sidebarSorter: ['readme', 'order', 'title'],
 
   logo: "/f.svg",
 

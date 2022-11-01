@@ -1,7 +1,8 @@
 ---
 title: Python 简要入门
-index: false
 icon: python
+index: false
 article: false
-dir.order: 1
+dir:
+    order: 1
 ---
