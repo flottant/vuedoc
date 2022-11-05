@@ -2,6 +2,7 @@
 title: MATLAB 基础
 icon: matlab
 index: false
+article: false
 dir:
     order: 2
 ---
