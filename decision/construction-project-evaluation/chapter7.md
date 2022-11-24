@@ -1,6 +1,6 @@
 ---
 title: 第七章 项目财务评估基础数据估算
-icon: jingji
+icon: buildjudge
 description: 估算项目基础数据
 category:
   - 决策

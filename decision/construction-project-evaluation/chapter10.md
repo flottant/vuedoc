@@ -1,6 +1,6 @@
 ---
 title: 第十章 国民经济效益评估
-icon: jingji
+icon: buildjudge
 description: 国民经济
 category:
   - 决策

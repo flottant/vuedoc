@@ -1,6 +1,6 @@
 ---
 title: 建设项目评估
-icon: jingji
+icon: buildjudge
 article: false
 index: false
 ---

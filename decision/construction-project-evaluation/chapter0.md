@@ -1,6 +1,6 @@
 ---
 title: 第一章 建设项目评估导论
-icon: jingji
+icon: buildjudge
 description: 建设项目评估绪论
 category:
   - 决策
