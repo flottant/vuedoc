@@ -92,7 +92,7 @@ print("hello world!")
 
 <img src="https://search.pstatic.net/common/?src=https://i.imgur.com/JfQ426h.jpeg" style="zoom:50%;" />
 
-我们看到，在交互区已经输出了结果。显然，它和题目要求的输入一致。让我们提交吧！
+我们看到，在交互区已经输出了结果。显然，它和题目要求的输出一致。让我们提交吧！
 
 ![](https://search.pstatic.net/common/?src=https://i.imgur.com/r25nXZa.jpeg)
 
