@@ -76,6 +76,8 @@ OJ 是什么？ OJ 是 Online Judge 的缩写，意思是在线评测系统。�
 
 改完后记得拉到页面底部，保存所有更改。
 
+如果你不会用邮箱也不要紧，已经设置成访客可做啦！
+
 让我们来试试第一题吧！
 
 https://hydro.ac/d/flot/p/1
@@ -93,6 +95,8 @@ print("hello world!")
 <img src="https://search.pstatic.net/common/?src=https://i.imgur.com/JfQ426h.jpeg" style="zoom:50%;" />
 
 我们看到，在交互区已经输出了结果。显然，它和题目要求的输出一致。让我们提交吧！
+
+记得上方的代码语言要选择 `python` 和 `python3`。
 
 ![](https://search.pstatic.net/common/?src=https://i.imgur.com/r25nXZa.jpeg)
 
