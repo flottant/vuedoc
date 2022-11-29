@@ -24,9 +24,9 @@ dir:
 
 **如果在下载的时候遇到了网络方面的问题，请移步：**
 
-https://pan.flot.moe/aliyun/python
+https://www.aliyundrive.com/drive/folder/6360cff9cde350132a0448a6888d9e154e8712ee
 
-![](https://search.pstatic.net/common/?src=https://i.imgur.com/W01ubre.jpeg)
+Windows 用户请选择 .exe文件，MAc 用户请选择 .pkg 文件。
 
 <img src="https://search.pstatic.net/common/?src=https://i.imgur.com/D3Aoef4.jpeg" style="zoom:50%;" /> <img src="https://search.pstatic.net/common/?src=https://i.imgur.com/xyLMy6k.jpeg" style="zoom:50%;" />
 
