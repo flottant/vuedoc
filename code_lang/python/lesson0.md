@@ -1,5 +1,5 @@
 ---
-title: Python 的准备工作
+title: 第0章 Python 的准备工作
 icon: python
 description: 安装与OJ
 category:
@@ -9,6 +9,8 @@ tag:
   - Python
 article: true
 date: 2022-11-26
+dir:
+    order: 1
 ---
 ##  安装 Thonny
 

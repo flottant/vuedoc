@@ -1,5 +1,5 @@
 ---
-title: Python 的交互与数据类型
+title: 第1章 Python 的交互与数据类型
 icon: python
 description: 数据类型与交互
 category:
@@ -9,6 +9,8 @@ tag:
   - Python
 article: true
 date: 2022-11-29
+dir:
+    order: 2
 ---
 
 ## 交互
