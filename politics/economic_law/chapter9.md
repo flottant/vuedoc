@@ -1,5 +1,5 @@
 ---
-title: 证券法
+title: 第9章 证券法
 icon: lawsdetail
 description: 证券法。
 category:
