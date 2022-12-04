@@ -1,5 +1,5 @@
 ---
-title: 第四章 土的工程性质与分类
+title: 第4章 土的工程性质与分类
 icon: matlab
 description: 土的工程性质
 category:
