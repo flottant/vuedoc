@@ -23,6 +23,7 @@ order: -1
 
 感谢您的支持！
 
+<iframe src="https://ip.skk.moe/simple" style="width: 100%; border: 0"></iframe>
 
 第一批更新计划：
 
