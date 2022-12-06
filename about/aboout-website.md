@@ -65,8 +65,3 @@ order: -1
 + CS 143
 
 + CMU 15-445/645
-
-网络检测：
-<iframe src="https://ip.skk.moe" style="width: 100%; border: 0"></iframe>
-
-<iframe src="https://debug.skk.moe" style="width: 100%; border: 0"></iframe>
