@@ -14,9 +14,6 @@ order: -1
 ---
 如你所见，这是个个人放放博客的地方。错漏频出很是正常，如果可以，请不吝赐教。
 
-学雷了吗？来看会排行榜吧！
-
-<iframe src="https://cloud.mokeyjay.com/pixiv" style="width:240px; height:380px; border: 0"></iframe>
 
 <!--more-->
 :::danger
