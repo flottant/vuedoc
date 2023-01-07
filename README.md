@@ -19,6 +19,12 @@ projects:
     link: https://zk-wz.gitee.io
 
 
+  - icon: friend
+    name: 简言
+    desc: 间歇性踌躇满志，持续性混吃等死的电子人
+    link: https://jianyan.flot.moe
+
+
 footer: 萌ICP备20220890号
 bgImage: ./bg.webp
 ---
