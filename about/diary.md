@@ -121,3 +121,4 @@ article: true
 
 + CS50 for AI （2/8）
 + 开学离散数学
++ Github 自动部署怎么报错了，再推送一次试试
