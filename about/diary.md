@@ -106,3 +106,18 @@ article: true
 + 看 格蕾缇娅Gretia （屑女人） 毕业回
 + 找到个很轻量级的音高分析软件：[vocalshifter](http://ackiesound.ifdef.jp/download.html)
 + 改善 B 站弹幕体验：[pakku](https://chrome.google.com/webstore/detail/pakku%EF%BC%9A%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E5%BC%B9%E5%B9%95%E8%BF%87%E6%BB%A4%E5%99%A8/jklfcpboamajpiikgkbjcnnnnooefbhh?hl=zh-CN)
+
+#### 9日
+
++ 忘了自己干嘛了，可能昏过去了吧
++ CS50x 怎么好多课程都是一个语速贼流利的亚洲人讲的，好牛
++ 晚上 Forest
+
+#### 10日
+
++ Forest 通关了，我的好大儿（问就是没炸飞机
+
+#### 11日
+
++ CS50 for AI （2/8）
++ 开学离散数学
